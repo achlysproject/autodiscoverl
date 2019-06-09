@@ -8,3 +8,11 @@ ebin
 rel/example_project
 .concrete/DEV_MODE
 .rebar
+
+# Build artifacts
+_build
+_grisp
+_checkouts
+ebin
+autodiscoverl-0.1.0
+*.tar.gz

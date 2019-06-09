@@ -1,0 +1,47 @@
+{ application , autodiscoverl , [
+    {description , "An OTP application"} ,
+    {vsn , "0.1.0"} ,
+
+    {registered , [autodiscoverl
+        , autodiscoverl_app
+        , autodiscoverl_sup
+        , autodiscoverl_utils
+    ]} ,
+
+    {mod , {achlys_app , []}} ,
+    {applications , [kernel
+        ,            stdlib
+        ,            grisp
+    ]} ,
+
+    {env , []} ,
+    {modules , [
+          autodiscoverl
+        , autodiscoverl_app
+        , autodiscoverl_sup
+        , autodiscoverl_utils
+    ]} ,
+
+    {licenses , ["Apache 2.0"]} ,
+
+    {maintainers , [
+        "igor.kopestenski@uclouvain.be"
+    ]} ,
+
+    {links , [
+          {"Achlys" , "https://ikopest.me"}
+        , {"Github" , "https://github.com/Laymer/autodiscoverl"}
+        , {"GRiSP" , "https://www.grisp.org"}
+        , {"LightKone" , "https://lightkone.eu/"}
+    ]} ,
+
+    {files , ["LICENSE"
+        ,     "README.md"
+        ,     "rebar.lock"
+        ,     "src"
+        ,     "grisp"
+        ,     "priv"
+        ,     "Makefile"
+    ]} ,
+    {build_tools , ["rebar3"]}
+]}.

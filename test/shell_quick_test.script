@@ -1,0 +1,4 @@
+% For further information about the original skeleton template please visit https://github.com/Pouriya-Jahanbakhsh/estuff
+
+% Have a quick test in 'make shell' using test().
+application:start('autodiscoverl').
